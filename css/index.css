@@ -9,7 +9,6 @@ body{
     font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 17px;
 }
-
 .section1{
     display: flex;
     justify-content: space-evenly;
@@ -18,8 +17,8 @@ body{
    
 }
 .top-nav{
-    margin-left: 1em;
-    margin-top: 20px;
+    margin-left: -20px;
+    margin-top: 25px;
 }
 .top-nav ,span{
     padding: 10px;
@@ -31,9 +30,10 @@ body{
     font-weight: bolder;
     padding: 12px;
     font-size: 18px;
+    margin-left: 20px;
 }
 .words{
-    margin-left: 70px;
+    margin-left: 25px;
     padding: 20px;
     
 }
@@ -54,7 +54,8 @@ button{
     /* margin-right: -50px; */
     text-decoration: none;
     color: rgb(156,200,204);
-    margin-right: -5em;
+    margin-left: 30px;
+    /* margin-top: 5px; */
 }
 .section2{
     display: flex;
@@ -72,9 +73,9 @@ button{
     width: 30%;
     border-radius: 30px;
     font-weight: bold;
-    margin-left: -7px;
+    margin-right: -10px;
     padding: 5px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 .image1 ,.image2{
     display: flex;
@@ -113,7 +114,7 @@ button{
     
 }
 .box2 button{
-    width: 45%;
+    width: 65%;
     background-color: rgb(31,161,216);
     margin-right: 50px;
     font-weight: bold;
@@ -163,13 +164,17 @@ div .list{
 
 }
 .list button{
-    width: 45%;
+    width: 65%;
     background-color: rgb(6,7,11);
-    margin-left: 7em;
+    margin-left: 4em;
     font-weight: bold;
     border: 1px solid rgb(253,253,253);
     border-radius: 5px;
     color: rgb(253,253,253);
+    /* font-size: 20px; */
+}
+.list button a{
+    font-size: 15px;
 }
 .section6{
     margin-top: 10%;
@@ -195,6 +200,9 @@ div .list{
 .footer{
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
+    height: 40vh;
+    background-color:rgb(131, 128, 128);
 }
 .input1{
      display: flex;
@@ -208,14 +216,57 @@ div .list{
     color: rgb(253,253,253);
 
 }
-.in input{
-    width: 20%;
+.in button {
+    width: 30%;
+    height: 40px;
     background-color: rgb(1,1,1); 
-    height: 5vh;
+    border-radius: 5px;
     border: 4px solid  rgb(31,161,216);
     margin-left: 6em;
     font-weight: bold;
     color: rgb(253,253,253);
+}
+.in button a{
+    margin-right: 180px;
+}
+
+@media (max-width: 576px) { 
+    .images{
+        width: 100% !important;
+        height: 35vh !important;
+    }
+    .buttons{
+        width: 80%;
+    }
+    .about{
+        width: 100%;
+    }
+    body{
+        width: 100% !important;
+    }
+    .section1{
+        width: 80% !important;
+    } 
+    .section2{
+        width: 100%!important;
+    } 
+    .section3{
+        width: 100%!important;
+    }     
+    .section4{
+        width: 100%!important;
+    }
+    .section5{
+        width: 80%!important;
+    }
+    .section6{
+        width: 80%!important;
+    }
+    .footer{
+        width: 100%!important;
+        height: 90vh;
+
+    }
 }
 
 
