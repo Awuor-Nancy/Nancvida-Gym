@@ -1,0 +1,226 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+body{
+    background-color: #000;
+    color:  rgb(236,236,236);
+    font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin: 0 20px 50px 20px;
+   
+}
+.top-nav{
+    margin-left: 1em;
+    margin-top: 20px;
+}
+.top-nav ,span{
+    padding: 10px;
+}
+.nav, a{
+    margin-top: 3em;
+    color: rgb(215,215,215);
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 12px;
+    font-size: 18px;
+}
+.words{
+    margin-left: 70px;
+    padding: 20px;
+    
+}
+.words h1 p{
+    line-height: 20px;
+    color: rgb(215,215,215);
+}
+.jump img{
+    margin-left: 45%;
+    margin-top: -38%;
+    
+}
+button{
+    border-radius: 30px;
+    /* background-color: rgb(20,195,244); */
+    width: 15%;
+    height: 50px;
+    /* margin-right: -50px; */
+    text-decoration: none;
+    color: rgb(156,200,204);
+    margin-right: -5em;
+}
+.section2{
+    display: flex;
+    margin-top: -23%;
+    background-color: rgb(5,5,7);
+}
+.about{
+    margin-left: 9%;
+    color: rgb(253,253,253);
+    
+}
+.about button{
+    background-color: rgb(232,232,232);
+    color: rgb(49,49,49);
+    width: 30%;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-left: -7px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.image1 ,.image2{
+    display: flex;
+    border-radius: 40px;
+    height: 60vh;
+    width: 40%;
+    background-color: rgb(64, 64, 66);
+    justify-content: space-between;
+    margin: 30px;
+    margin-bottom: 15px;
+
+}
+.image1{
+    margin-top: -35px;
+    margin-right: 45px;
+}
+.on_body{
+    margin-top: -42%;
+    margin-left: 8em;
+    line-height: 1px;
+    
+}
+.on_body ,button{
+    margin-left: 4em;
+    background-color: rgb(7,7,7);
+}
+.pic_box1 img{
+   margin-top: 5%;
+}
+
+.section3{
+    display: flex;
+    margin-left: 45%;
+    margin-top: -25%;
+   
+    
+}
+.box2 button{
+    width: 45%;
+    background-color: rgb(31,161,216);
+    margin-right: 50px;
+    font-weight: bold;
+}
+.box2 ,h3, p{
+    padding: 5px;
+}
+.view{
+   text-align: center;
+    
+}
+.section4{
+    margin-top: 5%;
+}
+.why{
+    text-align: center;
+    padding: 5px;
+}
+.why ,h5 p{
+    line-height: 5px;
+}
+.experience {
+    display: flex;
+    margin-left: 3em;
+    justify-content: space-evenly;
+}
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+div .list{
+    width: 25%;
+    height: 55vh;
+    border: 2px  solid rgb(253,253,253);
+    border-radius: 20px;
+    background-color: rgb(64, 64, 66);
+   
+}
+.topic{
+    text-align: center;
+    font-size: 30px;
+}
+.list p{
+    text-align: center;
+    padding: 20px;
+
+}
+.list button{
+    width: 45%;
+    background-color: rgb(6,7,11);
+    margin-left: 7em;
+    font-weight: bold;
+    border: 1px solid rgb(253,253,253);
+    border-radius: 5px;
+    color: rgb(253,253,253);
+}
+.section6{
+    margin-top: 10%;
+}
+.clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    /* margin-bottom: 50%; */
+    padding-bottom: 5%;
+
+}
+.picha{
+    text-align: center;
+    margin-top: -5%;
+    
+}
+.picha2{
+    text-align: center;
+    margin-bottom: 20%;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.input1{
+     display: flex;
+   
+}
+.put input{
+    width: 130%;
+    height: 5vh;
+    border: 5px solid  rgb(41,41,41);
+    background-color: rgb(41,41,41);
+    color: rgb(253,253,253);
+
+}
+.in input{
+    width: 20%;
+    background-color: rgb(1,1,1); 
+    height: 5vh;
+    border: 4px solid  rgb(31,161,216);
+    margin-left: 6em;
+    font-weight: bold;
+    color: rgb(253,253,253);
+}
+
+
+
+
+
+
+
