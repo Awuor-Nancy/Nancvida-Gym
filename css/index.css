@@ -4,10 +4,15 @@
     box-sizing: border-box;
 } */
 body{
-    background-color: #000;
+    /* background-color: #000; */
     color:  rgb(236,236,236);
     font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 17px;
+     background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+ 
+ /* background-image: linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% ); */
+
 }
 .section1{
     display: flex;
@@ -43,24 +48,25 @@ body{
 }
 .jump img{
     margin-left: 45%;
-    margin-top: -38%;
+    margin-top: -40%;
     
 }
 button{
-    border-radius: 30px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px;
     /* background-color: rgb(20,195,244); */
     width: 15%;
     height: 50px;
     /* margin-right: -50px; */
     text-decoration: none;
     color: rgb(156,200,204);
-    margin-left: 30px;
+    margin-left: 15px;
     /* margin-top: 5px; */
 }
 .section2{
     display: flex;
-    margin-top: -23%;
-    background-color: rgb(5,5,7);
+    margin-top: -25%;
+    
 }
 .about{
     margin-left: 9%;
@@ -100,18 +106,23 @@ button{
 }
 .on_body ,button{
     margin-left: 4em;
-    background-color: rgb(7,7,7);
+    /* background-color: rgb(7,7,7); */
 }
 .pic_box1 img{
    margin-top: 5%;
 }
 
 .section3{
-    display: flex;
+    display: grid;
     margin-left: 45%;
     margin-top: -25%;
-   
-    
+    grid-template-rows: repeat(2,150px);
+    grid-template-columns: repeat(2,4fr);   
+}
+.square2 img{
+    margin-top: 10px;
+    height: 30vh;
+    width: 85%;
 }
 .box2 button{
     width: 65%;
@@ -127,7 +138,7 @@ button{
     
 }
 .section4{
-    margin-top: 5%;
+    margin-top: 18%;
 }
 .why{
     text-align: center;
@@ -141,17 +152,36 @@ button{
     margin-left: 3em;
     justify-content: space-evenly;
 }
-.price{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5%;
+.section5{
+    background-image: url(last\ gym.webp);
+    background-repeat: no-repeat;
+    background-size: 200vh;
+    background-position: 50%;
+    
 }
+.price{
+      display: flex; 
+      justify-content: space-evenly;
+      opacity: 70%;
+    
+}
+.price :hover{
+        margin-top: 5%; 
+        border-radius: 3px;
+        border-bottom:1px solid rgb(251, 251, 251);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-top:1px solid rgb(255, 255, 255);
+        border-right: 1px solid rgb(255, 255, 255);
+        transition: all .5s ease;
+    }
+  
 div .list{
     width: 25%;
     height: 55vh;
     border: 2px  solid rgb(253,253,253);
     border-radius: 20px;
     background-color: rgb(64, 64, 66);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
    
 }
 .topic{
@@ -178,15 +208,18 @@ div .list{
 }
 .section6{
     margin-top: 10%;
+    justify-content: space-evenly;
 }
-.clients{
+.clients img{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 100px;
-    /* margin-bottom: 50%; */
-    padding-bottom: 5%;
 
+}
+.clients {
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 5%;
+    display: flex;
+    
 }
 .picha{
     text-align: center;
@@ -199,10 +232,11 @@ div .list{
 }
 .footer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-eve;
     width: 100%;
-    height: 40vh;
-    background-color:rgb(131, 128, 128);
+    height:50vh;
+    /* background-color:rgb(131, 128, 128); */
+    background-image: linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% );
 }
 .input1{
      display: flex;
@@ -228,6 +262,16 @@ div .list{
 }
 .in button a{
     margin-right: 180px;
+}
+.hours{
+    margin-left: 3em;
+    line-height: 15px;
+}
+.contact{
+    margin-left: 9em;
+}
+.news{
+    margin-left: 50;
 }
 
 @media (max-width: 576px) { 
