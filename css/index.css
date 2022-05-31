@@ -120,9 +120,10 @@ button{
     grid-template-columns: repeat(2,4fr);   
 }
 .square2 img{
-    margin-top: 10px;
-    height: 30vh;
-    width: 85%;
+    margin-top: 1px;
+    height: 33vh;
+    width: 82%;
+    
 }
 .box2 button{
     width: 65%;
@@ -211,15 +212,16 @@ div .list{
     justify-content: space-evenly;
 }
 .clients img{
-    display: flex;
+   padding: 50px;
+    margin-left: 25%;
+    justify-content: space-evenly;
 
 }
 .clients {
-    justify-content: space-evenly;
     align-items: center;
     padding-bottom: 5%;
     display: flex;
-    
+       
 }
 .picha{
     text-align: center;
