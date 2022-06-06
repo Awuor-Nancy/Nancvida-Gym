@@ -48,18 +48,16 @@ body{
 }
 .jump img{
     margin-left: 45%;
-    margin-top: -40%;
-    
+    margin-top: -34%;
+     
 }
 button{
     box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
-    border-radius: 10px;
-    /* background-color: rgb(20,195,244); */
+    border-radius: 5px;
     width: 15%;
     height: 50px;
-    /* margin-right: -50px; */
     text-decoration: none;
-    color: rgb(156,200,204);
+    color: rgb(000,000,000);
     margin-left: 15px;
     /* margin-top: 5px; */
 }
@@ -77,7 +75,7 @@ button{
     background-color: rgb(232,232,232);
     color: rgb(49,49,49);
     width: 30%;
-    border-radius: 30px;
+    border-radius: 5px;
     font-weight: bold;
     margin-right: -10px;
     padding: 5px;
@@ -127,7 +125,7 @@ button{
 }
 .box2 button{
     width: 65%;
-    background-color: rgb(31,161,216);
+    background-color: rgb(31,00,000);
     margin-right: 50px;
     font-weight: bold;
 }
@@ -156,8 +154,11 @@ button{
 .section5{
     background-image: url(last\ gym.webp);
     background-repeat: no-repeat;
-    background-size: 200vh;
+    background-size: cover;
     background-position: 50%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 85vh;
     
 }
 .price{
@@ -202,10 +203,12 @@ div .list{
     border: 1px solid rgb(253,253,253);
     border-radius: 5px;
     color: rgb(253,253,253);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     /* font-size: 20px; */
 }
 .list button a{
     font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .section6{
     margin-top: 10%;
@@ -236,9 +239,10 @@ div .list{
     display: flex;
     justify-content: space-eve;
     width: 100%;
-    height:50vh;
-    /* background-color:rgb(131, 128, 128); */
-    background-image: linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% );
+    height:60vh;
+    background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+
 }
 .input1{
      display: flex;
@@ -261,6 +265,7 @@ div .list{
     margin-left: 6em;
     font-weight: bold;
     color: rgb(253,253,253);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .in button a{
     margin-right: 180px;
@@ -275,11 +280,24 @@ div .list{
 .news{
     margin-left: 50;
 }
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 1%; */
+}
+.socials a{
+    font-size: 35px;
+    color: #000;
+    margin-top: -7%;
+}
+.fa:hover {
+    opacity: 0.7;
+  }
 
 @media (max-width: 576px) { 
     .images{
         width: 100% !important;
-        height: 35vh !important;
+      
     }
     .buttons{
         width: 80%;
